@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: #ffffff;
+    color: #000000;
+}
+
+/* remover a linha que fica no link */
+a {
+  color: rgb(250, 229, 229);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #6a696a;
+  text-decoration: underline;
+}
+
+header img {
+    width: 150px;        /* largura fixa */
+    height: 150px;       /* altura fixa igual à largura */
+    object-fit: cover;   /* corta a imagem proporcionalmente */
+    border-radius: 50%;  /* arredonda */
+    border: 3px solid #5a0707;/* borda colorida */
+}
+
+/* border-bottom cria a linha para fazer a divisão de um tópico para outro */
+header {
+    background: #c73e3e;
+    color: rgb(250, 229, 229);
+    text-align: center;
+    padding: 20px 10px;
+    border-bottom: 5px solid #5a0707;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+h2 {
+    color: #983105;
+    border-bottom: 2px solid #6f0d0d;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+/* square = deixar em tópicos com quadrados */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+/* para fazer o rodapé da pagina  */
+footer {
+    background: #f46d68;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
